@@ -1,0 +1,152 @@
+DESIGNERSTART = Form,Form,FrmGuidGenerator
+GUID=C516A494-F4CC-41F7-9788-735DD4045FDB
+Name=FrmGuidGenerator
+StartPosition=CenterScreen
+Text=Create GUID
+Location=100 , 100
+ClientSize=392 , 328
+ControlPrefix=o
+CallPreResumeLayout=No
+CallSuperInitialize=No
+UseGrid=Yes
+GridX=8
+GridY=8
+SUBCONTROLSSTART
+  
+  CONTROL=System.Windows.Forms.GroupBox
+  GUID=65A28711-5CF5-49E4-887E-F6F00F23B032
+  Name=GroupBox2
+  Text=Result
+  Location=8 , 240
+  Size=376 , 80
+  TabIndex=5
+  SUBCONTROLSSTART
+    
+    CONTROL=System.Windows.Forms.Label
+    GUID=447624BC-F1A9-4EE8-BE9D-C102D48B5641
+    Name=LabelOutput
+    Location=8 , 16
+    Size=360 , 52
+    BackColor=Color.Transparent
+    TabIndex=0
+    Visible=False
+ 
+ SUBCONTROLSEND
+  
+  CONTROL=System.Windows.Forms.GroupBox
+  GUID=D5D90653-6C19-429E-8419-B3CBBF40E9EE
+  Name=GroupBox1
+  Text=GUI Format
+  Location=8 , 80
+  Size=288 , 152
+  TabIndex=4
+  SUBCONTROLSSTART
+    
+    CONTROL=System.Windows.Forms.RadioButton
+    GUID=1E945B8B-90DC-475D-B0B0-98841765E3E3
+    AutoSize=True
+    Name=RadioButton6
+    Text=&6. <Guid("xxxxxxx-xxxx ... xxxx")>
+    Location=8 , 122
+    Size=192 , 18
+    BackColor=Color.Transparent
+    TabIndex=5
+    Click=RadioButton_Click
+    
+    CONTROL=System.Windows.Forms.RadioButton
+    GUID=E50D0464-F332-4CD6-B84D-F06BFFEA7773
+    AutoSize=True
+    Name=RadioButton5
+    Text=&5. [Guid("xxxxxxx-xxxx ... xxxx")]
+    Location=8 , 103
+    Size=185 , 18
+    BackColor=Color.Transparent
+    TabIndex=4
+    Click=RadioButton_Click
+    
+    CONTROL=System.Windows.Forms.RadioButton
+    GUID=65CAE3C2-37C5-4E8D-8FB1-28387EE68815
+    AutoSize=True
+    Name=RadioButton4
+    Text=&4. Registry Format (ie. {xxxxxxx-xxxx ... xxxx })
+    Location=8 , 84
+    Size=256 , 18
+    BackColor=Color.Transparent
+    TabIndex=3
+    Click=RadioButton_Click
+    
+    CONTROL=System.Windows.Forms.RadioButton
+    GUID=5CFED6A6-32B2-4FA7-A1E5-A71DCD6531F7
+    AutoSize=True
+    Name=RadioButton3
+    Text=&3. static const struct GUID = { ... }
+    Location=8 , 65
+    Size=189 , 18
+    BackColor=Color.Transparent
+    TabIndex=2
+    Click=RadioButton_Click
+    
+    CONTROL=System.Windows.Forms.RadioButton
+    GUID=DF6D1700-E9C4-4D51-A3D7-A109E7BBC14C
+    AutoSize=True
+    Name=RadioButton2
+    Text=&2. DEFINE_GUID(...)
+    Location=8 , 46
+    Size=128 , 18
+    BackColor=Color.Transparent
+    TabIndex=1
+    Click=RadioButton_Click
+    
+    CONTROL=System.Windows.Forms.RadioButton
+    GUID=2AA65B53-9EBD-4AC6-B24E-F0BAFF72DC74
+    AutoSize=True
+    Name=RadioButton1
+    Text=&1. IMPLEMENT_OLECREATE(...)
+    Location=8 , 27
+    Size=193 , 18
+    BackColor=Color.Transparent
+    TabIndex=0
+    Click=RadioButton_Click
+ 
+ SUBCONTROLSEND
+  
+  CONTROL=System.Windows.Forms.Button
+  GUID=7495AB24-D452-44B5-949E-E10729BB7291
+  Name=Button3
+  Text=&Exit
+  Location=304 , 54
+  Size=80 , 24
+  TabIndex=3
+  Click=Button3_Click
+  
+  CONTROL=System.Windows.Forms.Button
+  GUID=EB5DB734-7C04-4629-908E-A8351F5918AE
+  Name=Button2
+  Text=&New GUID
+  Location=304 , 30
+  Size=80 , 24
+  TabIndex=2
+  Click=Button2_Click
+  
+  CONTROL=System.Windows.Forms.Button
+  GUID=52BC979F-7F01-41E4-BE13-078B2AEEDAA6
+  Name=Button1
+  Text=&Copy
+  Location=304 , 6
+  Size=80 , 24
+  TabIndex=1
+  Click=Button1_Click
+  
+  CONTROL=System.Windows.Forms.Label
+  GUID=1D824831-E55A-4912-82F1-4C9C47C7367B
+  Name=Label1
+  Text=Choose the desired format below, then select "Copy" to copy the result to the clipboard (the results can then be pasted into your source code). Choose "Exit" when done.
+  Location=8 , 8
+  Size=290 , 40
+  BackColor=Color.Transparent
+  TabIndex=0
+
+SUBCONTROLSEND
+DESIGNEREND = FrmGuidGenerator
+
+
