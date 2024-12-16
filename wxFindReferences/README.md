@@ -1,6 +1,6 @@
 # wxFindReferences
 
-English[README.md] | 简体中文[README_CN.md]
+[English](README.md) | [简体中文](README_CN.md)
 
 wxFindReferences is a code navigation tool for XIDE that allows developers to quickly find all references to a selected identifier across the current project.
 

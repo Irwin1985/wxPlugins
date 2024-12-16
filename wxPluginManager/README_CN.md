@@ -1,6 +1,6 @@
 # wxPluginManager
 
-English[README.md] | 简体中文[README_CN.md]
+[English](README.md) | [简体中文](README_CN.md)
 
 wxPluginManager 是一个用于管理 XIDE 插件的集中工具。它允许用户从单一界面启用或禁用特定插件、查看插件详情并自定义其行为。
 

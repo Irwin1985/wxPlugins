@@ -1,6 +1,6 @@
 # wxGuidGenerator
 
-English[README.md] | 简体中文[README_CN.md]
+[English](README.md) | [简体中文](README_CN.md)
 
 wxGuidGenerator 是一个简单而强大的工具，用于在 XIDE 中直接生成 GUID(全局唯一标识符)。它旨在帮助开发人员快速生成 GUID，以用于 COM 组件、.NET 开发、数据库键和其他需要唯一标识符的场景。
 

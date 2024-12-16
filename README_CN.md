@@ -1,6 +1,6 @@
 # wxPlugins
 
-English[README.md] | 简体中文[README_CN.md]
+[English](README.md) | [简体中文](README_CN.md)
 
 wxPlugins 是一个为 XIDE 设计的生产力工具集合，旨在通过提供额外的功能（如代码导航、GUID 生成和插件管理）来增强开发体验。
 
