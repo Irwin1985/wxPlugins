@@ -6,7 +6,7 @@ wxPlugins is a collection of productivity tools for XIDE, designed to enhance th
 
 ## Included Plugins
 
-1. **wxGuidGenerator`
+1. **wxGuidGenerator**
    - A tool to generate GUIDs in various formats for use in COM, .NET, and other programming scenarios.
 
 2. **wxFindReferences**
