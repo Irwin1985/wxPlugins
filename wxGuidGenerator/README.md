@@ -1,5 +1,7 @@
 # wxGuidGenerator
 
+[English](README.md) | [简体中文](README_CN.md)
+
 wxGuidGenerator is a simple yet powerful tool for generating GUIDs (Globally Unique Identifiers) directly within XIDE. It is designed to help developers quickly generate GUIDs for use in COM components, .NET development, database keys, and other scenarios where unique identifiers are required.
 
 ## Features
