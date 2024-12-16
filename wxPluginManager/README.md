@@ -1,5 +1,7 @@
 # wxPluginManager
 
+English[README.md] | 简体中文[README_CN.md]
+
 wxPluginManager is a centralized tool for managing plugins in XIDE. It allows users to enable or disable specific plugins, view plugin details, and customize their behavior, all from a single interface.
 
 ## Features

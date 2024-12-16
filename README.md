@@ -1,5 +1,7 @@
 # wxPlugins
 
+English[README.md] | 简体中文[README_CN.md]
+
 wxPlugins is a collection of productivity tools for XIDE, designed to enhance the development experience by providing additional features like code navigation, GUID generation, and plugin management.
 
 ## Included Plugins
